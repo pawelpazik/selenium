@@ -8,5 +8,6 @@ public class Main {
         ChromeOptions options = new ChromeOptions();
         ChromeDriver driver = new ChromeDriver(options);
         driver.get("https://facebook.com");
+        driver.get("https://google.com");
     }
 }
